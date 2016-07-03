@@ -1,0 +1,27 @@
+{
+	"baseName": "noviga",
+	"entities": [
+		{
+			"name": "user",
+			"attrs": [
+				{
+					"attrName": "username",
+					"attrType": "String",
+					"minLength": "3",
+					"maxLength": "10",
+					"enumValues": [],
+					"required": true
+				},
+				{
+					"attrName": "password",
+					"attrType": "String",
+					"minLength": "3",
+					"maxLength": "20",
+					"enumValues": [],
+					"required": true
+				}
+			]
+		}
+	],
+	"resources": []
+}
